@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humburger Menu</title>
+    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+    <nav>
+        <div class="logo"><img class="logo-img" src="assets/logo.svg" alt="brand Logo"></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section" class="welcome-section">
+            <div class="welcome-img_sec">
+                <img class="welcome-img" src="assets/me on-glasses.png" alt="my image">
+            </div>
+            <div class="welcome-msg">
+                <h1>Hey I am <span class="strong">Tonydave</span></h1>
+                <p>a web developer</p>
+                <a class="btn btn-contact-me" href="#contact">Contact Me<i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section id="aboutMe-section" class="aboutMe-section">
+            <div id="about" class="about-img-section">
+                <i class="fas fa-user"></i>
+            </div>
+            <div id="about" class="about-info">
+                <h2>About Me</h2>
+                <p class="about-msg">I am <span class="name"><b>Tonydave.</b></span>
+                    I am a reliable frontend developer with stacks in &lt;</span>HTML5<span class="code">&#47;&gt;</span>,  
+                    <span><i class="fab fa-css3"></i>CSS3,</span> <span><i class="fab fa-bootstrap"></i></span>BootStrap,
+                    <span><i class="fab fa-js"></i></span>Javascript and currently learning <span><i class="fab fa-python"></i></span>
+                     python. I have very strong analytical and time management skills.
+                    I believe technology makes life easier and I use technology daily for problem solving.
+                </p>
+            </div>
+        </section>
+        <section id="works" class="works-section">
+            <h1 class="works-section_title">Here are some of my works</h1>
+            
+            <div class="card-section">
+
+                <div class="card">
+                    <a href="https://ogbaluchidiebubedavid.github.io/huddle-landing-page-design/" target="_blank" class="project">
+                    <img class="project-image" src="assets/lp-design.png" alt="project"/>
+                    </a>
+                    <div class="container"> 
+                        <p><span class="code">&lt;</span>Landing Page<span class="code">&#47;&gt;</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://codepen.io/Chidiebube-David-Ogbalu/pen/VwQdvpW" target="_blank" class="project">
+                        <img class="project-image" src="assets/chess.png" alt="project"/>
+                    </a>
+                    <div class="container"> 
+                        <p><span class="code">&lt;</span>5 by 5 Chess game UI<span class="code">&#47;&gt;</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://ogbaluchidiebubedavid.github.io/Car-and-color-cards/grid.html" target="_blank" class="project">
+                        <img class="project-image" src="assets/grid-layout.png" alt="project"/>
+                    </a>
+                    <div class="container"> 
+                        <p><span class="code">&lt;</span>Grid Layout Practice<span class="code">&#47;&gt;</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://ogbaluchidiebubedavid.github.io/Car-and-color-cards/" target="_blank" class="project">
+                        <img class="project-image" src="assets/car-card.png" alt="project"/>
+                        </a> 
+                    <div class="container"> 
+                        <p><span class="code">&lt;</span>Colors & Topography<span class="code">&#47;&gt;</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-section-header">
+                <h2>Reach out To Me...</h2>
+                <p>I'm open to work</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://facebook.com/chukstonydave" target="_blank" class="btn contact-details">
+                    <i class="fab fa-facebook"></i>Facebook
+                </a>
+                <a href="https://linkedin.com/chidiebubedavidogbalu" target="_blank" class="btn contact-details">
+                    <i class="fab fa-linkedin"></i>Linkedin
+                </a>
+                <a href="https://twitter.com/@tonydavechuks" target="_blank" class="btn contact-details">
+                    <i class="fab fa-twitter"></i>Twitter
+                </a>
+                <a href="https://github.com/ogbaluchidiebubedavid" target="_blank" class="btn contact-details">
+                    <i class="fab fa-github"></i>Github
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright_sec">
+            <p>Designed and Developed by<span><i class="fa fa-envelope"></i>davechuks65@gmail.com</span></p>
+        </div>
+        <div class="copyright">
+            <p> Copyright 2022 &#169 - All rights reserverd</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
