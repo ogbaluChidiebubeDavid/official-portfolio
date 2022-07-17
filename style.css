@@ -163,8 +163,8 @@
   }
   
   .btn-contact-me {
-    font-size: 1.8rem;
-    background-color: #4e1a58;
+    font-size: 2rem;
+    border: 2px solid #6752f3;
     transition: background-color 0.3s ease-out;
   }
   
@@ -365,7 +365,7 @@
       padding: 0.5rem 1rem !important;
     }
     .btn-contact-me{
-      font-size: 1.4rem !important;
+      font-size: 1.9rem !important;
     }
 
     .aboutMe-section{
