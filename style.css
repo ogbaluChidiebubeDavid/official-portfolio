@@ -191,6 +191,7 @@
 
   .card-section{
     display: flex;
+    flex-wrap: wrap;
     gap: 6.8rem;
     justify-content: center;
   }
