@@ -21,5 +21,6 @@ function show(){
     mainMenu.style.top = '0';
 }
 function close(){
+    openMenu.style.display = 'flex'
     mainMenu.style.top = '-100%';
 }
