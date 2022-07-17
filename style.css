@@ -191,6 +191,7 @@
 
   .card-section{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 6.8rem;
     justify-content: center;
@@ -199,8 +200,6 @@
   .card {
     box-shadow: 0 4px 8px 0 #000;
     transition: 0.3s;
-    background: #4e1a58;
-    color: #6752f3;
   }
 
   .card:hover {
@@ -212,7 +211,7 @@
     padding: 2px 16px;
   }
   .card * p:hover {
-    color:#e6d9e9;
+    color:#6752f3;
   }
 
   .card * p{
@@ -220,7 +219,6 @@
     padding: 1.4rem 1rem;
   }
   .code {
-    color: #e6d9e9;
     transition: color 0.3s ease-out;
   }
   
