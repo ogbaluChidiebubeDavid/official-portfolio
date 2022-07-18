@@ -131,6 +131,7 @@
     .fa-whatsapp {
       font-size: 6rem;
       position: fixed;
+      color: green;
       -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
       -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
