@@ -215,8 +215,9 @@
     margin: 0 auto 4rem auto;
     border-bottom: 0.2rem solid #4e1a58;
   }
-    .container {
+    .skills-container {
   width: 100%;
+        background-color: #fff;
 }
 
 .skills {
