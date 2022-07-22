@@ -41,6 +41,9 @@
     background: #e6d9e9;
     color: #4e1a58;
   }
+  .dark-mode{
+    background-color: white;
+  }
 
   a{
     text-decoration: none;
