@@ -1,13 +1,39 @@
+let darkMode = localStorage.getItem('darkMode');
+const darkModeToggle = document.querySelector('.checkBox'); 
+
+const enableDarkMode = () =>{
+    document.body.classList.add('darkMode');
+    localStorage.setItem('darkMode', 'enabled');
+}
+
+const disableDarkMode = () =>{
+    document.body.classList.remove('darkMode');
+    localStorage.setItem('darkMode', 'null');
+}
+
+if (darkMode === 'enabled'){
+    enableDarkMode();
+}
+
+darkModeToggle.addEventListener( 'click', () => {
+    darkMode = localStorage.getItem('darkMode');
+    if (darkMode !== 'enabled'){
+        enableDarkMode();
+    }
+    else{
+        disableDarkMode();
+    }
+});
+
+
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
-const toggling = document.querySelector('.checkBox');
 
 
 
 
-toggling.addEventListener( 'click', toggler);
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
