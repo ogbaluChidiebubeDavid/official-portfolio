@@ -274,7 +274,7 @@
   }
     .skills-container {
   width: 100%;
-        background-color: #fff;
+        background-color: #cce;
 }
 
 .skills {
@@ -292,20 +292,20 @@
 
 .html {
   width: 90%; 
-  background-color: #4CAF50;
+  background-color: #4e1a58;
 }
 .css {
   width: 80%; 
-  background-color: #2196F3;
+  background-color: #4e1a58;
 }
 
 .bootstrap {
   width: 60%; 
-  background-color: #808080;
+  background-color: #4e1a58;
 }
 .js {
   width: 50%; 
-  background-color: #f44336;
+  background-color: #4e1a58;
 }
 
   .card-section{
