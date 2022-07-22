@@ -2,10 +2,12 @@ const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
+const toggling = document.querySelector('.checkBox');
 
 
 
 
+toggling.addEventListener( 'click', toggler);
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
@@ -22,4 +24,8 @@ function show(){
 }
 function close(){
     mainMenu.style.top = '-1000px';
+}
+function toggler() {
+    let element = document.body;
+    element.classList.toggle('dark-mode');
 }
