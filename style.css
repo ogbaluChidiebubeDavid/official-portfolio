@@ -188,7 +188,7 @@
     .fa-whatsapp {
       font-size: 6rem;
       position: fixed;
-      color: green;
+      color: rgb(24, 163, 24);
       -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
       -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
@@ -200,12 +200,12 @@
   /* Safari 4.0 - 8.0 */
   @-webkit-keyframes example {
       from {transform: translate(0px, 0px);}
-      to {transform: translate(82vw, 70vh); color: green;}
+      to {transform: translate(82vw, 70vh);}
   }
   
   @keyframes example {
       from {transform: translate(0px, 0px);}
-      to {transform: translate(82vw, 70vh); color: green;}
+      to {transform: translate(82vw, 70vh); color:}
   }
 
   main{
